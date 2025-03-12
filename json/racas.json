@@ -1,0 +1,317 @@
+{
+  "racas": {
+    "humano": {
+      "id": "race_001",
+      "nome": "Humano",
+      "modificadores_atributos": {
+        "escolha_livre": 2
+      },
+      "habilidades": {
+        "versatilidade": "Você se torna treinado em duas perícias a sua escolha",
+        "talento_extra": "Você recebe um poder geral a sua escolha. Deve cumprir seus requisitos."
+      },
+      "tamanho": "Médio",
+      "deslocamento": 9,
+      "visao": "Normal",
+      "idiomas": ["Comum"]
+    },
+    "anao": {
+      "id": "race_002",
+      "nome": "Anão",
+      "modificadores_atributos": {
+        "constituicao": 2,
+        "sabedoria": 1,
+        "destreza": -1
+      },
+      "habilidades": {
+        "conhecimento_das_rochas": "Você recebe visão no escuro e +2 em testes de Percepção e Sobrevivência realizados no subterrâneo",
+        "devagar_e_sempre": "Seu deslocamento é 6m (em vez de 9m). Porém, seu deslocamento não é reduzido por uso de armadura ou excesso de carga",
+        "duro_como_pedra": "Você recebe +3 pontos de vida no 1º nível e +1 por nível seguinte",
+        "tradição_das_armas": "Você é proficiente em machados e martelos"
+      },
+      "tamanho": "Médio",
+      "deslocamento": 6,
+      "visao": "Escuro",
+      "idiomas": ["Comum", "Anão"]
+    },
+    "dahllan": {
+      "id": "race_003",
+      "nome": "Dahllan",
+      "modificadores_atributos": {
+        "sabedoria": 2,
+        "carisma": 1,
+        "inteligencia": -1
+      },
+      "habilidades": {
+        "amiga_das_plantas": "Você pode lançar a magia Controlar Plantas (apenas em plantas mundanas e não criaturas do tipo planta). Você não gasta PM para lançar, mas precisa estar ao ar livre e em contato com o solo",
+        "armadura_natural": "Sua pele é coberta por casca. Você recebe +1 na Defesa",
+        "empatia_selvagem": "Você pode se comunicar com animais por meio de linguagem corporal e vocalizações simples. Você recebe +2 em testes de Adestramento e Diplomacia com animais"
+      },
+      "tamanho": "Médio",
+      "deslocamento": 9,
+      "visao": "Normal",
+      "idiomas": ["Comum", "Sylvan"]
+    },
+    "elfo": {
+      "id": "race_004",
+      "nome": "Elfo",
+      "modificadores_atributos": {
+        "inteligencia": 2,
+        "destreza": 1,
+        "constituicao": -1
+      },
+      "habilidades": {
+        "sentidos_aguçados": "Você recebe +2 em testes de Misticismo e Percepção",
+        "graça_marcial": "Você recebe proficiência em arcos e espadas",
+        "herança_feérica": "Você recebe +2 em testes de resistência contra efeitos mentais"
+      },
+      "tamanho": "Médio",
+      "deslocamento": 9,
+      "visao": "Baixa Luminosidade",
+      "idiomas": ["Comum", "Élfico"]
+    },
+    "goblin": {
+      "id": "race_005",
+      "nome": "Goblin",
+      "modificadores_atributos": {
+        "destreza": 2,
+        "inteligencia": 1,
+        "carisma": -1
+      },
+      "habilidades": {
+        "engenhoso": "Você é treinado em Ladinagem e recebe +2 em testes de Ofício",
+        "peste_esguia": "Você recebe +2 em testes de Atletismo e Furtividade",
+        "rato_das_ruas": "Você recebe visão no escuro e deslocamento de escalada igual ao seu deslocamento terrestre"
+      },
+      "tamanho": "Pequeno",
+      "deslocamento": 9,
+      "visao": "Escuro",
+      "idiomas": ["Comum", "Goblin"]
+    },
+    "lefou": {
+      "id": "race_006",
+      "nome": "Lefou",
+      "modificadores_atributos": {
+        "escolha_livre": 2,
+        "carisma": -1
+      },
+      "habilidades": {
+        "cria_da_corrupcao": "Você é uma criatura do tipo monstro e aberração",
+        "deformidade": "Você tem uma deformidade que, embora desagradável, é útil. Escolha entre:",
+          "deformidades": [
+            "Braços extras: Você tem um par de braços extras vestigiais. Você pode usar uma arma de uma mão e um escudo (ou outra arma de uma mão) com suas mãos principais e ainda ter uma mão livre",
+            "Carapaça: Sua pele é recoberta por placas. Você recebe +1 na Defesa",
+            "Membros inferiores extras: Você tem pernas extras ou seus membros inferiores são substituídos por um conjunto de tentáculos. Seu deslocamento aumenta em +3m",
+            "Olhos extras: Você tem olhos extras espalhados pelo corpo. Você recebe +2 em testes de Percepção"
+          ],
+        "resistencia_antinatural": "Você recebe resistência a uma energia a sua escolha"
+      },
+      "tamanho": "Médio",
+      "deslocamento": 9,
+      "visao": "Normal",
+      "idiomas": ["Comum"]
+    },
+    "minotauro": {
+      "id": "race_007",
+      "nome": "Minotauro",
+      "modificadores_atributos": {
+        "forca": 2,
+        "constituicao": 1,
+        "sabedoria": -1
+      },
+      "habilidades": {
+        "chifres": "Você possui uma arma natural de chifres (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação atacar com outra arma, pode gastar 1 PM para fazer um ataque adicional com os chifres",
+        "couro_rigido": "Sua pele é mais resistente que o normal. Você recebe +1 na Defesa",
+        "faro": "Você tem olfato apurado. Você não fica desprevenido contra inimigos que não possa ver e recebe +2 em testes de Sobrevivência para rastrear"
+      },
+      "tamanho": "Médio",
+      "deslocamento": 9,
+      "visao": "Normal",
+      "idiomas": ["Comum"]
+    },
+    "qareen": {
+      "id": "race_008",
+      "nome": "Qareen",
+      "modificadores_atributos": {
+        "carisma": 2,
+        "inteligencia": 1,
+        "sabedoria": -1
+      },
+      "habilidades": {
+        "resistencia_elemental": "Você escolhe entre água, ar, fogo ou terra. Você recebe resistência 5 ao tipo de energia associado (respectivamente frio, eletricidade, fogo ou ácido)",
+        "talentos_elementais": "Você recebe um poder da lista de poderes de qareen. A partir do 3º nível, sempre que ganha um nível, pode trocar um de seus poderes de qareen por outro",
+        "vontade_dos_elementos": "Você pode gastar uma ação de movimento e 1 PM para receber deslocamento igual ao seu deslocamento terrestre no tipo de movimento relacionado ao elemento escolhido (água: natação; ar: voo; fogo: escalada; terra: escavação). O efeito dura até o fim da cena"
+      },
+      "tamanho": "Médio",
+      "deslocamento": 9,
+      "visao": "Normal",
+      "idiomas": ["Comum"]
+    },
+    "golem": {
+      "id": "race_009",
+      "nome": "Golem",
+      "modificadores_atributos": {
+        "constituicao": 2,
+        "forca": 1,
+        "carisma": -1
+      },
+      "habilidades": {
+        "armadura_natural": "Seu corpo artificial é mais resistente que o normal. Você recebe +2 na Defesa",
+        "chassi": "Você é uma construção. Recebe visão no escuro e imunidade a efeitos de veneno, doenças e morte",
+        "energia_vital": "Você não possui pontos de vida. Em vez disso, seus PV são substituídos por pontos de mana. Você ainda possui PV máximos igual a sua Constituição + classe, mas em vez de curar pontos de vida, cura PM. Você só morre quando seus PM chegam a –Constituição. Você pode ser afetado por efeitos de cura, mas recebe PM em vez de PV",
+        "reparos": "Para você, efeitos de construção funcionam como efeitos de cura"
+      },
+      "tamanho": "Médio",
+      "deslocamento": 9,
+      "visao": "Escuro",
+      "idiomas": ["Comum"]
+    },
+    "hynne": {
+      "id": "race_010",
+      "nome": "Hynne",
+      "modificadores_atributos": {
+        "destreza": 2,
+        "carisma": 1,
+        "forca": -1
+      },
+      "habilidades": {
+        "arremessador": "Quando faz um ataque à distância com uma funda ou uma arma de arremesso, você soma seu modificador de Destreza ao dano",
+        "pequeno_e_astuto": "Você recebe +2 em testes de Enganação e Furtividade",
+        "sortudo": "Você pode gastar 1 PM para rolar novamente um teste recém realizado. Você deve aceitar o novo resultado",
+        "tamanho_pequeno": "Você recebe +2 em testes de Acrobacia e +1 na Defesa"
+      },
+      "tamanho": "Pequeno",
+      "deslocamento": 6,
+      "visao": "Normal",
+      "idiomas": ["Comum"]
+    },
+    "kliren": {
+      "id": "race_011",
+      "nome": "Kliren",
+      "modificadores_atributos": {
+        "inteligencia": 2,
+        "carisma": 1,
+        "forca": -1
+      },
+      "habilidades": {
+        "engenhoqueiro": "Você recebe +2 em testes de Ofício (um qualquer, a sua escolha) e pode fabricar itens alquímicos e mágicos sem ser treinado em Ofício (alquimia) ou possuir o poder Ofício Mágico",
+        "inventario_orgarnizado": "Você pode retirar um item guardado como uma ação livre",
+        "memoria_mecanica": "Você recebe +2 em testes de Conhecimento e pode fazer testes de Conhecimento mesmo sem ser treinado",
+        "tamanho_pequeno": "Você recebe +2 em testes de Acrobacia e +1 na Defesa"
+      },
+      "tamanho": "Pequeno",
+      "deslocamento": 6,
+      "visao": "Normal",
+      "idiomas": ["Comum"]
+    },
+    "medusa": {
+      "id": "race_012",
+      "nome": "Medusa",
+      "modificadores_atributos": {
+        "destreza": 2,
+        "carisma": 1,
+        "sabedoria": -1
+      },
+      "habilidades": {
+        "cabeleira_de_serpentes": "Você tem uma arma natural de mordida (dano 1d4, crítico x2, perfuração). Uma vez por rodada, quando usa a ação atacar com outra arma, pode gastar 1 PM para fazer um ataque adicional com a mordida",
+        "natureza_venenosa": "Você recebe resistência a veneno 5 e pode gastar 1 PM para envenenar uma arma que esteja empunhando. A arma causa 1d4 pontos de dano de veneno adicional em um acerto (CD Constituição 15 reduz à metade). O veneno dura até você acertar um ataque ou até o fim da cena",
+        "olhar_paralisante": "Você pode gastar 1 PM para forçar uma criatura em alcance curto a fazer um teste de Fortitude (CD Car). Se ela falhar, fica paralisada por 1 rodada. Se passar, fica imune a esta habilidade por 1 dia"
+      },
+      "tamanho": "Médio",
+      "deslocamento": 9,
+      "visao": "Normal",
+      "idiomas": ["Comum"]
+    },
+    "osteon": {
+      "id": "race_013",
+      "nome": "Osteon",
+      "modificadores_atributos": {
+        "inteligencia": 2,
+        "constituicao": 1,
+        "carisma": -1
+      },
+      "habilidades": {
+        "armadura_ossea": "Você recebe +2 na Defesa",
+        "memoria_ancestral": "Você recebe +2 em testes de Conhecimento e pode fazer testes de Conhecimento mesmo sem ser treinado",
+        "natureza_esqueletica": "Você é uma criatura do tipo morto-vivo. Recebe visão no escuro e imunidade a efeitos de veneno, doenças e morte. Além disso, não precisa respirar, alimentar-se ou dormir. Por fim, você não se beneficia de efeitos de cura e não pode ser curado por descanso. Em vez disso, você só recupera PV e PM mediante reparo, como se fosse uma construção"
+      },
+      "tamanho": "Médio",
+      "deslocamento": 9,
+      "visao": "Escuro",
+      "idiomas": ["Comum"]
+    },
+    "sereia": {
+      "id": "race_014",
+      "nome": "Sereia/Tritão",
+      "modificadores_atributos": {
+        "carisma": 2,
+        "constituicao": 1,
+        "sabedoria": -1
+      },
+      "habilidades": {
+        "anfibio": "Você pode respirar embaixo d'água e possui deslocamento de natação igual ao seu deslocamento terrestre",
+        "cantico_natural": "Você pode lançar duas das magias a seguir: Amedrontar, Comando, Enfeitiçar ou Hipnotismo. Você pode lançar cada magia escolhida uma vez por dia, sem gastar PM (atributo-chave Carisma)",
+        "mestre_do_mar": "Você recebe +2 em testes de Atletismo e Sobrevivência realizados na água"
+      },
+      "tamanho": "Médio",
+      "deslocamento": 9,
+      "deslocamento_natacao": 9,
+      "visao": "Normal",
+      "idiomas": ["Comum"]
+    },
+    "silfide": {
+      "id": "race_015",
+      "nome": "Sílfide",
+      "modificadores_atributos": {
+        "carisma": 2,
+        "destreza": 1,
+        "constituicao": -1
+      },
+      "habilidades": {
+        "asas_de_borboleta": "Você pode gastar 1 PM para receber deslocamento de voo igual ao seu deslocamento terrestre até o fim da cena",
+        "pequena_e_agil": "Você recebe +2 em testes de Acrobacia e Furtividade e +1 na Defesa",
+        "sensibilidade_a_luz": "Você sofre -2 em testes de resistência contra efeitos de luz"
+      },
+      "tamanho": "Pequeno",
+      "deslocamento": 6,
+      "visao": "Normal",
+      "idiomas": ["Comum", "Silvestre"]
+    },
+    "trog": {
+      "id": "race_016",
+      "nome": "Trog",
+      "modificadores_atributos": {
+        "constituicao": 2,
+        "forca": 1,
+        "inteligencia": -1
+      },
+      "habilidades": {
+        "mau_cheiro": "Você pode gastar 1 PM para expelir um gás fétido. Todas as criaturas (exceto trogs) em alcance curto devem passar em um teste de Fortitude (CD Con) ou ficarão enjoadas por 1d4 rodadas",
+        "reptiliano": "Você recebe visão no escuro, +1 em Defesa e resistência a veneno 5",
+        "sangue_frio": "Você sofre 1 ponto de dano adicional por dado de dano de frio"
+      },
+      "tamanho": "Médio",
+      "deslocamento": 9,
+      "visao": "Escuro",
+      "idiomas": ["Comum"]
+    },
+    "suraggel": {
+      "id": "race_017",
+      "nome": "Suraggel",
+      "modificadores_atributos": {
+        "sabedoria": 2,
+        "inteligencia": 1,
+        "constituicao": -1
+      },
+      "habilidades": {
+        "asas_celestiais": "Você pode gastar 1 PM para receber deslocamento de voo igual ao seu deslocamento terrestre até o fim da cena",
+        "luz_sagrada": "Você recebe visão no escuro e pode gastar 1 PM para gerar luz (como uma tocha) a partir de seu corpo. A luz tem brilho normal em alcance curto e brilho fraco no dobro do alcance",
+        "pureza_celestial": "Você é uma criatura do tipo espírito e recebe resistência a necrótico 5"
+      },
+      "tamanho": "Médio",
+      "deslocamento": 9,
+      "visao": "Escuro",
+      "idiomas": ["Comum", "Celestial"]
+    }
+  }
+} 
