@@ -299,7 +299,7 @@
         "destruidor": {
           "nome": "Destruidor",
           "nivel_minimo": 1,
-          "descricao": "Você recebe +2 em testes de ataque para quebrar objetos."
+          "descricao": "Você recebe +2 em testes de ataque para quebrar objetos e ignora 5 pontos de RD de objetos."
         },
         "furia_direcionada": {
           "nome": "Fúria Direcionada",
@@ -321,6 +321,21 @@
           "nivel_minimo": 1,
           "descricao": "Você recebe +1 PV por nível de personagem."
         },
+        "força_total": {
+          "nome": "Força Total",
+          "nivel_minimo": 1,
+          "descricao": "Você pode gastar 1 PM para receber +5 em um teste de Força ou Atletismo."
+        },
+        "grito_de_guerra": {
+          "nome": "Grito de Guerra",
+          "nivel_minimo": 1,
+          "descricao": "Quando entra em fúria, você pode gastar 2 PM para que todos os aliados em alcance curto recebam +2 em testes de ataque e rolagens de dano por uma rodada."
+        },
+        "pele_de_ferro": {
+          "nome": "Pele de Ferro",
+          "nivel_minimo": 1,
+          "descricao": "Você recebe +1 na Defesa e resistência a dano 2."
+        },
         "alma_selvagem_maior": {
           "nome": "Alma Selvagem Maior",
           "nivel_minimo": 6,
@@ -332,6 +347,70 @@
           "descricao": "A condição abalido do Brado Assustador dura 1d4 rodadas."
         },
         "destruidor_maior": {
+          "nome": "Destruidor Maior",
+          "nivel_minimo": 6,
+          "descricao": "O bônus em testes de ataque para quebrar objetos aumenta para +5 e você ignora 10 pontos de RD de objetos."
+        },
+        "força_total_maior": {
+          "nome": "Força Total Maior",
+          "nivel_minimo": 6,
+          "descricao": "O bônus em testes de Força ou Atletismo aumenta para +10."
+        },
+        "golpe_poderoso_maior": {
+          "nome": "Golpe Poderoso Maior",
+          "nivel_minimo": 6,
+          "descricao": "O bônus na rolagem de dano aumenta para +10."
+        },
+        "pele_de_ferro_maior": {
+          "nome": "Pele de Ferro Maior",
+          "nivel_minimo": 6,
+          "descricao": "O bônus na Defesa aumenta para +2 e a resistência a dano aumenta para 5."
+        },
+        "sangue_dos_inimigos_maior": {
+          "nome": "Sangue dos Inimigos Maior",
+          "nivel_minimo": 6,
+          "descricao": "Você recebe 4d6 PV temporários quando acerta um crítico."
+        },
+        "vigor_primitivo_maior": {
+          "nome": "Vigor Primitivo Maior",
+          "nivel_minimo": 6,
+          "descricao": "O bônus de PV por nível aumenta para +2."
+        },
+        "alma_selvagem_suprema": {
+          "nome": "Alma Selvagem Suprema",
+          "nivel_minimo": 11,
+          "descricao": "O bônus em Fortitude e Vontade aumenta para +10."
+        },
+        "destruidor_supremo": {
+          "nome": "Destruidor Supremo",
+          "nivel_minimo": 11,
+          "descricao": "O bônus em testes de ataque para quebrar objetos aumenta para +10 e você ignora 15 pontos de RD de objetos."
+        },
+        "fúria_guerreira": {
+          "nome": "Fúria Guerreira",
+          "nivel_minimo": 11,
+          "descricao": "Quando entra em fúria, você pode gastar 2 PM para realizar um ataque adicional em seu turno."
+        },
+        "golpe_poderoso_supremo": {
+          "nome": "Golpe Poderoso Supremo",
+          "nivel_minimo": 11,
+          "descricao": "O bônus na rolagem de dano aumenta para +15."
+        },
+        "pele_de_ferro_suprema": {
+          "nome": "Pele de Ferro Suprema",
+          "nivel_minimo": 11,
+          "descricao": "O bônus na Defesa aumenta para +3 e a resistência a dano aumenta para 10."
+        },
+        "sangue_dos_inimigos_supremo": {
+          "nome": "Sangue dos Inimigos Supremo",
+          "nivel_minimo": 11,
+          "descricao": "Você recebe 6d6 PV temporários quando acerta um crítico."
+        },
+        "vigor_primitivo_supremo": {
+          "nome": "Vigor Primitivo Supremo",
+          "nivel_minimo": 11,
+          "descricao": "O bônus de PV por nível aumenta para +3."
+        }
       }
     },
     "bardo": {
@@ -2362,5 +2441,4 @@
       }
     }
   }
-}
 }
